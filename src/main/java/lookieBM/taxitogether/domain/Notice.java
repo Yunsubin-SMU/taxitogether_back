@@ -20,6 +20,7 @@ public class Notice extends BaseTimeEntity {
     private Long noticeId;
 
     // 공지사항 작성자가 여러 명일 수가 있을지
+    //@ManyToOne
     @Column(name="user_id")
     private Long userId; //FK
 
